@@ -4,8 +4,8 @@ function AboutMe() {
   return (
     <section id="about-me">
       <h2>About Me</h2>
-      <a href="./contact/aboutme.html" target="_blank">
-        <img src="../assets/images/photo-output.JPG" alt="My Image" width="200" height="200" />
+      <a href="./contact/aboutme.html">
+      <img src="../assets/images/photo-output.JPG" alt="" width="200" height="200" />
       </a>
       <p>
         <em>Coding, gaming, and creating have always been my passions. There's something magical about the creative process that drives me to spend countless hours tinkering with code, exploring new game mechanics, and crafting unique works of art.</em>
