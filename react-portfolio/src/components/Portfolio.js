@@ -7,7 +7,7 @@ function Portfolio() {
       <ul>
         <li>
           <h3>Ping Pong Game</h3>
-          <a href="./project/pinponggame.html" target="_blank">
+          <a href="../project/pinponggame.html" target="_blank">
             <img src="../assets/images/project1.png" alt="Ping Pong Game" width="300" height="200" />
           </a>
           <p>
@@ -16,14 +16,14 @@ function Portfolio() {
         </li>
         <li>
           <h3>My Weather Apps</h3>
-          <a href="./project/getweather.html" target="_blank">
+          <a href="../project/getweather.html" target="_blank">
             <img src="../assets/images/project2.png" alt="My getting weather page" width="300" height="200" />
           </a>
           <p>
             <em>Html, JavasScript and Fetch API was used for creating a website to check the next 3 or 5 days in the location users want.</em>
           </p>
         </li>
-        {/* Add more project items as necessary */}
+      
       </ul>
     </section>
   );

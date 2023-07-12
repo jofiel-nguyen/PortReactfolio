@@ -8,9 +8,6 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Perform your form submission logic here
-    // For example, you can send the form data to a server or save it to a database
-
     console.log('Form submitted');
     console.log('Name:', name);
     console.log('Email:', email);
