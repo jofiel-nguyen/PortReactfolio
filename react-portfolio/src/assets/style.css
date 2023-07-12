@@ -1,0 +1,171 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #222;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #fff;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Main Styles */
+main {
+  margin: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section img {
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+section p em {
+  font-style: italic;
+}
+/* Contact Me Section Styles */
+#contact-me {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#contact-me h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+#contact-me form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-me label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#contact-me input,
+#contact-me textarea {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+#contact-me textarea {
+  height: 150px;
+}
+
+#contact-me input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contact-me input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  #contact-me form {
+      align-items: flex-start;
+  }
+}
+#my-work ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+#my-work li {
+  width: 48%;
+  margin-bottom: 30px;
+}
+
+#my-work li img {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+@media (max-width: 768px) {
+  #my-work li {
+      width: 100%;
+  }
+}
+
+/* Footer Styles */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  h1 {
+      font-size: 24px;
+  }
+
+  h2 {
+      font-size: 20px;
+  }
+
+  section img {
+      width: 100%;
+      height: auto;
+  }
+}
