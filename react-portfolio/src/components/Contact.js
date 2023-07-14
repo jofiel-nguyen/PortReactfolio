@@ -1,40 +1,101 @@
 import React, { useState } from 'react';
+import '../assets/Contact.css';
 
 function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [nameError, setNameError] = useState('');
+  const [emailError, setEmailError] = useState('');
+
+  const handleNameChange = (e) => {
+    setName(e.target.value);
+    setNameError('');
+  };
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+    setEmailError('');
+  };
+
+  const handleMessageChange = (e) => {
+    setMessage(e.target.value);
+  };
+
+  const validateForm = () => {
+    let isValid = true;
+
+    if (!name) {
+      setNameError('Name is required');
+      isValid = false;
+    }
+
+    if (!email) {
+      setEmailError('Email is required');
+      isValid = false;
+    } else if (!isValidEmail(email)) {
+      setEmailError('Invalid email address');
+      isValid = false;
+    }
+
+    return isValid;
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    console.log('Form submitted');
-    console.log('Name:', name);
-    console.log('Email:', email);
-    console.log('Message:', message);
+    if (validateForm()) {
+      // Perform form submission logic here
+      console.log('Form submitted');
+    }
+  };
 
-    // Reset the form fields
-    setName('');
-    setEmail('');
-    setMessage('');
+  const isValidEmail = (email) => {
+    // Basic email validation using a regular expression
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailPattern.test(email);
   };
 
   return (
-    <section id="contact-me">
-      <h2>Contact Me</h2>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} required />
-
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
-
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" name="message" value={message} onChange={(e) => setMessage(e.target.value)} required></textarea>
-
-        <input type="submit" value="Send" />
+    <div className="container">
+      <h2>Contact</h2>
+      <form className="form" onSubmit={handleSubmit}>
+        <div className="form-row">
+          <label className="label" htmlFor="name">Name:</label>
+          <input
+            className="input"
+            type="text"
+            id="name"
+            value={name}
+            onChange={handleNameChange}
+            required
+          />
+          {nameError && <p className="error">{nameError}</p>}
+        </div>
+        <div className="form-row">
+          <label className="label" htmlFor="email">Email:</label>
+          <input
+            className="input"
+            type="email"
+            id="email"
+            value={email}
+            onChange={handleEmailChange}
+            required
+          />
+          {emailError && <p className="error">{emailError}</p>}
+        </div>
+        <div className="form-row">
+          <label className="label" htmlFor="message">Message:</label>
+          <textarea
+            className="textarea"
+            id="message"
+            value={message}
+            onChange={handleMessageChange}
+          />
+        </div>
+        <button className="submit-button" type="submit">Submit</button>
       </form>
-    </section>
+    </div>
   );
 }
 
