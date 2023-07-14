@@ -28,6 +28,7 @@ function Portfolio() {
               This is a project that showcases your skills in building a text editor that runs in the browser. The application is a single-page application that meets the Progressive Web App (PWA) criteria. It incorporates various data persistence techniques to ensure reliability and redundancy, even when offline.
             </em>
           </p>
+          
           <p>
             GitHub Repository:{' '}
             <a href="https://github.com/nhunguyen-debug/PWA-From-Rice.git" target="_blank" rel="noopener noreferrer">
@@ -43,6 +44,9 @@ function Portfolio() {
             <em>
               This is an API for a social network web application built using MongoDB, Express.js, and Mongoose. It allows users to share their thoughts, react to friends' thoughts, and create a friend list.
             </em>
+          </p>
+          <p>
+            <strong>Deployed API:</strong> <a href="http://localhost:3001/api/users" target="_blank" rel="noopener noreferrer">localhost:3001/api/users</a>
           </p>
           <p>
             GitHub Repository:{' '}
