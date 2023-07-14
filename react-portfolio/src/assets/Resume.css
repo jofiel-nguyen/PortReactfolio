@@ -1,0 +1,61 @@
+#resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .resume-nav {
+    margin-bottom: 20px;
+  }
+  
+  .resume-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .resume-nav li {
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #ccc;
+  }
+  
+  .resume-nav li.active {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .resume-content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .sub-section {
+    margin-bottom: 10px;
+  }
+  
+  .sub-section-title {
+    font-weight: bold;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
