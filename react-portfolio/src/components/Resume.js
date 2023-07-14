@@ -80,11 +80,30 @@ function Resume() {
       case 'skills':
         return (
           <div className="section">
-            <h3 className="section-title">Skills</h3>
-            <p>
-              Computer literacy, Restaurant experience, Communication skills, Microsoft Word, Leadership, Physical examinations, Guest services, Time management, Bilingual (English, Spanish), Food service, Microsoft Excel, SQL, JavaScript, C++, CSS, HTML, Python, Project Management, Marketing
-            </p>
-          </div>
+  <h3 className="section-title">Skills</h3>
+  <ul>
+    <li>Computer literacy</li>
+    <li>Restaurant experience</li>
+    <li>Communication skills</li>
+    <li>Microsoft Word</li>
+    <li>Leadership</li>
+    <li>Physical examinations</li>
+    <li>Guest services</li>
+    <li>Time management</li>
+    <li>Bilingual (English, Spanish)</li>
+    <li>Food service</li>
+    <li>Microsoft Excel</li>
+    <li>SQL</li>
+    <li>JavaScript</li>
+    <li>C++</li>
+    <li>CSS</li>
+    <li>HTML</li>
+    <li>Python</li>
+    <li>Project Management</li>
+    <li>Marketing</li>
+  </ul>
+</div>
+
         );
       case 'education':
         return (
