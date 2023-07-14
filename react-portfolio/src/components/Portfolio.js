@@ -116,7 +116,7 @@ function Portfolio() {
         </em>
       </p>
       <p>
-            <strong>Deployed API:</strong> <a href="http://localhost:3001/api/tags" target="_blank" rel="noopener noreferrer">localhost:3001/api/users</a>
+            <strong>Deployed API:</strong> <a href="http://localhost:3001/api/tags" target="_blank" rel="noopener noreferrer">localhost:3001/api/tags</a>
           </p>
       <p>
         GitHub Repository: {' '}
