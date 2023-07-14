@@ -17,6 +17,24 @@ function Portfolio() {
       <h2 style={{ textAlign: 'center' }}>My Work</h2>
       <ul style={{ display: 'flex', justifyContent: 'space-between', listStyle: 'none', padding: 0 }}>
       <li style={{ width: '30%', border: '1px solid #ccc', borderRadius: '4px', padding: '20px' }}>
+      <h3> <a href="https://nhunguyen-debug.github.io/MyChallenge3-Passwordgenerate/" target="_blank" rel="noopener noreferrer">
+          Password Generater
+        </a></h3>
+          <img src={project1Image} alt="" style={imageStyle} />
+          <p>
+            <em>
+              This project is a password generator that allows users to generate a secure password based on their chosen criteria.
+            </em>
+          </p>
+      
+          <p>
+            GitHub Repository: {' '}
+            <a href="https://github.com/nhunguyen-debug/MyChallenge3-Passwordgenerate.git" target="_blank" rel="noopener noreferrer">
+              Link
+            </a>
+          </p>
+        </li>
+      <li style={{ width: '30%', border: '1px solid #ccc', borderRadius: '4px', padding: '20px' }}>
           <h3>
             <a href="https://pwaapps-6193e22597e4.herokuapp.com/" target="_blank" rel="noopener noreferrer">
               Text Editor Web Application
@@ -28,7 +46,6 @@ function Portfolio() {
               This is a project that showcases your skills in building a text editor that runs in the browser. The application is a single-page application that meets the Progressive Web App (PWA) criteria. It incorporates various data persistence techniques to ensure reliability and redundancy, even when offline.
             </em>
           </p>
-          
           <p>
             GitHub Repository:{' '}
             <a href="https://github.com/nhunguyen-debug/PWA-From-Rice.git" target="_blank" rel="noopener noreferrer">
@@ -53,13 +70,6 @@ function Portfolio() {
             <a href="https://github.com/nhunguyen-debug/Nosql-for-rice.git" target="_blank" rel="noopener noreferrer">
               Link
             </a>
-          </p>
-        </li>
-        <li style={{ width: '30%', border: '1px solid #ccc', borderRadius: '4px', padding: '20px' }}>
-          <h3>Ping Pong Game</h3>
-          <img src={project1Image} alt="" style={imageStyle} />
-          <p>
-            <em>Ping pong game that takes place in a galaxy environment.</em>
           </p>
         </li>
         <li style={{ width: '30%', border: '1px solid #ccc', borderRadius: '4px', padding: '20px' }}>
