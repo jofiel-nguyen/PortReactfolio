@@ -155,6 +155,15 @@ function Resume() {
           <p>Overall, I present myself as a highly skilled and passionate professional who is ready to take on new challenges and achieve great things.</p>
         </div>
       );
+      case 'download':
+        return (
+          <div className="section">
+            <h3 className="section-title">Download Resume</h3>
+            <p>Click the button below to download my resume:</p>
+            <a href="assets/ITresume.pdf" download>Download Resume</a>
+
+          </div>
+        );
       default:
         return null;
     }
@@ -169,8 +178,11 @@ function Resume() {
           <li className={activeTab === 'skills' ? 'active' : ''} onClick={() => handleTabClick('skills')}>Skills</li>
           <li className={activeTab === 'education' ? 'active' : ''} onClick={() => handleTabClick('education')}>Education</li>
           <li className={activeTab === 'about' ? 'active' : ''} onClick={() => handleTabClick('about')}>About Me</li>
+          <li className={activeTab === 'download' ? 'active' : ''} onClick={() => handleTabClick('download')}>Download</li>
         </ul>
       </nav>
+      
+
 
       {renderContent()}
     </div>
