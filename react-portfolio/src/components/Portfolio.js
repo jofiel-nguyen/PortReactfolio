@@ -44,6 +44,12 @@ function Portfolio() {
               This is an API for a social network web application built using MongoDB, Express.js, and Mongoose. It allows users to share their thoughts, react to friends' thoughts, and create a friend list.
             </em>
           </p>
+          <p>
+            GitHub Repository:{' '}
+            <a href="https://github.com/nhunguyen-debug/Nosql-for-rice.git" target="_blank" rel="noopener noreferrer">
+              Link
+            </a>
+          </p>
         </li>
         <li style={{ width: '30%', border: '1px solid #ccc', borderRadius: '4px', padding: '20px' }}>
           <h3>Ping Pong Game</h3>
