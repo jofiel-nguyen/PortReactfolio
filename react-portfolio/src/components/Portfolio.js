@@ -4,6 +4,7 @@ import project2Image from '../assets/images/project2.png';
 import project3Image from '../assets/images/project3.gif'; 
 import project4Image from '../assets/images/project4.gif'; 
 import project5Image from '../assets/images/project5.png'; 
+import project6Image from '../assets/images/project6.gif'; 
 function Portfolio() {
   const imageStyle = {
     width: '100%',
@@ -106,6 +107,25 @@ function Portfolio() {
           </a>
         </p>
       </li>
+      <li style={{ width: '30%', border: '1px solid #ccc', borderRadius: '4px', padding: '20px' }}>
+      <h3>E-Commerce Back End</h3>
+      <img src={project6Image} alt="" style={imageStyle} />
+      <p>
+        <em>
+          This project involves building the back end for an e-commerce site using Express.js API and Sequelize to interact with a MySQL database.
+        </em>
+      </p>
+      <p>
+            <strong>Deployed API:</strong> <a href="http://localhost:3001/api/tags" target="_blank" rel="noopener noreferrer">localhost:3001/api/users</a>
+          </p>
+      <p>
+        GitHub Repository: {' '}
+        <a href="https://github.com/nhunguyen-debug/ORM-Wren-Rice.git" target="_blank" rel="noopener noreferrer">
+          Link
+        </a>
+      </p>
+    </li>
+
 
       </ul>
     </section>
