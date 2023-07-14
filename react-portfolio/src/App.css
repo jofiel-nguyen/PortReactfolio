@@ -57,6 +57,9 @@ footer {
   color: #fff;
   text-align: center;
 }
+.icon {
+  margin-right: 10px; 
+}
 
 @media (max-width: 768px) {
   main {
