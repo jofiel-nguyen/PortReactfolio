@@ -16,7 +16,16 @@ function Portfolio() {
   return (
     <section id="my-work">
       <h2 style={{ textAlign: 'center' }}>My Work</h2>
-      <ul style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', listStyle: 'none', padding: 0 }}>      <li style={{ width: '30%', border: '1px solid #ccc', borderRadius: '4px', padding: '20px' }}>
+      <ul
+        style={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          justifyContent: 'space-between',
+          listStyle: 'none',
+          padding: 0,
+        }}
+      >      
+      <li style={{ width: '30%', border: '1px solid #ccc', borderRadius: '4px', padding: '20px' }}>
       <h3> <a href="https://nhunguyen-debug.github.io/MyChallenge3-Passwordgenerate/" target="_blank" rel="noopener noreferrer">
           Password Generater
         </a></h3>
