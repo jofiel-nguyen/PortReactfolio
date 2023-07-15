@@ -7,6 +7,7 @@ function Contact() {
   const [message, setMessage] = useState('');
   const [nameError, setNameError] = useState('');
   const [emailError, setEmailError] = useState('');
+  const [messageError, setMessageError] = useState('');
 
   const handleNameChange = (e) => {
     setName(e.target.value);
@@ -20,6 +21,7 @@ function Contact() {
 
   const handleMessageChange = (e) => {
     setMessage(e.target.value);
+    setMessageError('');
   };
 
   const validateForm = () => {
@@ -35,6 +37,11 @@ function Contact() {
       isValid = false;
     } else if (!isValidEmail(email)) {
       setEmailError('Invalid email address');
+      isValid = false;
+    }
+
+    if (!message) {
+      setMessageError('Message is required');
       isValid = false;
     }
 
@@ -91,7 +98,9 @@ function Contact() {
             id="message"
             value={message}
             onChange={handleMessageChange}
+            required
           />
+          {messageError && <p className="error">{messageError}</p>}
         </div>
         <button className="submit-button" type="submit">Submit</button>
       </form>
