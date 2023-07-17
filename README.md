@@ -71,22 +71,23 @@ To learn more about Create React App, you can refer to the official documentatio
 To learn React, check out the React documentation.
 
 ### Code Splitting
-This section has moved here.
+This section has moved [here](https://create-react-app.dev/docs/code-splitting/)
+.
 
 ### Analyzing the Bundle Size
-This section has moved here.
+This section has moved here.[here](https://create-react-app.dev/docs/analyzing-the-bundle-size/).
 
 ### Making a Progressive Web App
-This section has moved here.
-
+This section has moved [here](https://create-react-app.dev/docs/making-a-progressive-web-app/).
 ### Advanced Configuration
-This section has moved here.
+This section has moved [here](https://create-react-app.dev/docs/advanced-configuration/).
 
 ### Deployment
-This section has moved here.
+This section has moved [here](https://create-react-app.dev/docs/deployment/).<br>
+
 This is my github link for this project: https://github.com/nhunguyen-debug/REACT-APPS.git<br>
 This is heroku link:  https://react-app-wren-4649eb97664e.herokuapp.com/<br>
 ![Deployed picture](./src/assets/images/demo.gif)<br>
 This is link github: https://github.com/nhunguyen-debug/REACT-APPS.git
 ### Troubleshooting
-If you encounter any issues with the npm run build command failing to minify, refer to the troubleshooting guide here.<br>
+If you encounter any issues with the npm run build command failing to minify, refer to the troubleshooting guide here.https://create-react-app.dev/docs/troubleshooting/#npm-run-build-fails-to-minify<br>
