@@ -84,11 +84,9 @@ This section has moved here.
 
 ### Deployment
 This section has moved here.
-This is my github link for this project: https://github.com/nhunguyen-debug/REACT-APPS.git
-
-
-### Troubleshooting
-If you encounter any issues with the npm run build command failing to minify, refer to the troubleshooting guide here.<br>
+This is my github link for this project: https://github.com/nhunguyen-debug/REACT-APPS.git<br>
 This is heroku link:  https://react-app-wren-4649eb97664e.herokuapp.com/<br>
 ![Deployed picture](./src/assets/images/demo.gif)<br>
 This is link github: https://github.com/nhunguyen-debug/REACT-APPS.git
+### Troubleshooting
+If you encounter any issues with the npm run build command failing to minify, refer to the troubleshooting guide here.<br>
