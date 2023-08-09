@@ -5,6 +5,8 @@ import project3Image from '../assets/images/project3.gif';
 import project4Image from '../assets/images/project4.gif'; 
 import project5Image from '../assets/images/project5.png'; 
 import project6Image from '../assets/images/project6.gif'; 
+import project7Image from '../assets/images/project7.png';
+import project8Image from '../assets/images/project8.png';
 function Portfolio() {
   const imageStyle = {
     width: '100%',
@@ -133,6 +135,42 @@ function Portfolio() {
         </a>
       </p>
     </li>
+    <li style={{ width: '30%', border: '1px solid #ccc', borderRadius: '4px', padding: '20px' }}>
+          <h3>WanderJo App Travel</h3>
+          <img src={project7Image} alt="" style={imageStyle} />
+          <p>
+            <em>
+              This is App created to fetching data to prepare for users to travel
+            </em>
+          </p>
+          <p>
+            <strong>Deployed Github:</strong> <a href="https://sunny-skies-1f810bfddd0d.herokuapp.com/" target="_blank" rel="noopener noreferrer">WanderJo App </a>
+          </p>
+          <p>
+            GitHub Repository:{' '}
+            <a href="https://github.com/jomaduagwu/wanderjo-app.git" target="_blank" rel="noopener noreferrer">
+              Link
+            </a>
+          </p>
+        </li>
+        <li style={{ width: '30%', border: '1px solid #ccc', borderRadius: '4px', padding: '20px' }}>
+          <h3>Recipes Now App</h3>
+          <img src={project8Image} alt="" style={imageStyle} />
+          <p>
+            <em>
+              This is App created to fetching data to read and watch video to make cooking easier.
+            </em>
+          </p>
+          <p>
+            <strong>Deployed Github:</strong> <a href="https://avenp.github.io/recipe-search-app/" target="_blank" rel="noopener noreferrer">Recipe Now App </a>
+          </p>
+          <p>
+            GitHub Repository:{' '}
+            <a href="https://github.com/AvenP/recipe-search-app.git" target="_blank" rel="noopener noreferrer">
+              Link
+            </a>
+          </p>
+        </li>
 
 
       </ul>
