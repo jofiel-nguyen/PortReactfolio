@@ -17,14 +17,14 @@ function Footer() {
         <p>&copy; 2023 Wren's Portfolio</p>
         <div className="social-links">
           <a
-            href="https://github.com/nhunguyen-debug"
+            href="https://github.com/jofiel-nguyen"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faGithub} className="icon" />
           </a>
           <a
-            href="https://www.linkedin.com/in/wren-nguyen-a63359269/"
+            href="https://www.linkedin.com/in/jofiel-nguyen-a63359269/"
             target="_blank"
             rel="noopener noreferrer"
           >

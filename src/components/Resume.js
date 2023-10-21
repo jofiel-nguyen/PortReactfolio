@@ -166,7 +166,7 @@ function Resume() {
         <div className="section">
           <h3 className="section-title">About Me</h3>
           <ul>
-            <li>My name is Thi Tu Nhu Nguyen. You can call me "Wren" and Thank you for reaching my Website</li>
+            <li>My name is Jofiel Nguyen. You can call me "Wren" or "Jofiel" and Thank you for reaching my Website</li>
             <li>I have experience working for over three years as a pharmacy technician at CVS Pharmacy, as well as in research science at the Vietnam Academy of Science and Technology.</li>
             <li>I have pursued additional education in information technology, including completing a full-stack developer boot camp at Rice University and taking the highly-regarded CS50 course offered by Harvard University.</li>
             <li>I hold an associate of science degree from Lonestar College with a GPA of 3.7, and have been recognized for my achievements with graduation honors in pharmacy technician from Ashworth College, where I also earned certification in the field.</li>

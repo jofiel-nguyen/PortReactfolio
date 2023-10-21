@@ -28,7 +28,7 @@ function Portfolio() {
         }}
       >      
       <li style={{ width: '30%', border: '1px solid #ccc', borderRadius: '4px', padding: '20px' }}>
-      <h3> <a href="https://nhunguyen-debug.github.io/MyChallenge3-Passwordgenerate/" target="_blank" rel="noopener noreferrer">
+      <h3> <a href="https://github.com/jofiel-nguyen/PasswordGenerateMachine.git" target="_blank" rel="noopener noreferrer">
           Password Generater
         </a></h3>
           <img src={project1Image} alt="" style={imageStyle} />
@@ -40,7 +40,7 @@ function Portfolio() {
       
           <p>
             GitHub Repository: {' '}
-            <a href="https://github.com/nhunguyen-debug/MyChallenge3-Passwordgenerate.git" target="_blank" rel="noopener noreferrer">
+            <a href="https://jofiel-nguyen.github.io/PasswordGenerateMachine/" target="_blank" rel="noopener noreferrer">
               Link
             </a>
           </p>
