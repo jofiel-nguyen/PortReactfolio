@@ -1,22 +1,24 @@
 {
   "files": {
     "main.css": "/nhunguyen-debug/REACT-APPS--PORTFOLIO.git/static/css/main.7eab343e.css",
-    "main.js": "/nhunguyen-debug/REACT-APPS--PORTFOLIO.git/static/js/main.6334b7ac.js",
+    "main.js": "/nhunguyen-debug/REACT-APPS--PORTFOLIO.git/static/js/main.142a154a.js",
     "static/js/787.a2cb61a6.chunk.js": "/nhunguyen-debug/REACT-APPS--PORTFOLIO.git/static/js/787.a2cb61a6.chunk.js",
     "static/media/project3.gif": "/nhunguyen-debug/REACT-APPS--PORTFOLIO.git/static/media/project3.b42d095e85f9652e6d7d.gif",
     "static/media/photo-output.JPG": "/nhunguyen-debug/REACT-APPS--PORTFOLIO.git/static/media/photo-output.a4bb3987e3a70198e555.JPG",
+    "static/media/project7.png": "/nhunguyen-debug/REACT-APPS--PORTFOLIO.git/static/media/project7.90aaf99f7126e5897dda.png",
     "static/media/project6.gif": "/nhunguyen-debug/REACT-APPS--PORTFOLIO.git/static/media/project6.437ce5630d2ff14a82f1.gif",
+    "static/media/project8.png": "/nhunguyen-debug/REACT-APPS--PORTFOLIO.git/static/media/project8.c1d7134693b595134530.png",
     "static/media/project5.png": "/nhunguyen-debug/REACT-APPS--PORTFOLIO.git/static/media/project5.e65ef3bc036c874e96a8.png",
     "static/media/project4.gif": "/nhunguyen-debug/REACT-APPS--PORTFOLIO.git/static/media/project4.ecdafe771ac3cfb84690.gif",
     "static/media/project2.png": "/nhunguyen-debug/REACT-APPS--PORTFOLIO.git/static/media/project2.db9c5eb6c07d0599da7e.png",
     "static/media/project1.png": "/nhunguyen-debug/REACT-APPS--PORTFOLIO.git/static/media/project1.aa25cbf89939def02f6b.png",
     "index.html": "/nhunguyen-debug/REACT-APPS--PORTFOLIO.git/index.html",
     "main.7eab343e.css.map": "/nhunguyen-debug/REACT-APPS--PORTFOLIO.git/static/css/main.7eab343e.css.map",
-    "main.6334b7ac.js.map": "/nhunguyen-debug/REACT-APPS--PORTFOLIO.git/static/js/main.6334b7ac.js.map",
+    "main.142a154a.js.map": "/nhunguyen-debug/REACT-APPS--PORTFOLIO.git/static/js/main.142a154a.js.map",
     "787.a2cb61a6.chunk.js.map": "/nhunguyen-debug/REACT-APPS--PORTFOLIO.git/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7eab343e.css",
-    "static/js/main.6334b7ac.js"
+    "static/js/main.142a154a.js"
   ]
 }
